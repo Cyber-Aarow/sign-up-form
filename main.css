@@ -4,21 +4,29 @@
     padding: 0;
 }
 
+div{
+    border: dotted black 2px;
+}
+
 body{
     display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.left, .right{
+    display: flex;
+    padding: 20px;
 }
 
 .left{
-    flex: 1;
-    max-width: 30%;
-}
-
-.left img{
-    width: 100%;
-    height: auto;
+    width: 30vw;
+    height: 100vh;
+    background-image: url(matthew-mcbrayer-qD9xzm7yK9U-unsplash.jpg);
+    background-size: cover;
 }
 
 .right{
-    flex: 1;
+    display: flex;
     padding: 20px;
 }
