@@ -17,11 +17,10 @@ body{
 .left, .right{
     display: flex;
     flex-direction: column;
-    padding: 20px;
 }
 
 .left{
-    width: 30vw;
+    width: 100vw;
     height: 100vh;
     background-image: url(matthew-mcbrayer-qD9xzm7yK9U-unsplash.jpg);
     background-size: cover;
@@ -30,4 +29,10 @@ body{
 .right{
     display: flex;
     padding: 20px;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
 }
