@@ -22,6 +22,7 @@ body{
 .left{
     width: 100vw;
     height: 100vh;
+    max-width: 30%;
     background-image: url(matthew-mcbrayer-qD9xzm7yK9U-unsplash.jpg);
     background-size: cover;
 }
@@ -32,7 +33,17 @@ body{
 }
 
 h1{
-    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
+    font-size: 64px;
+}
+
+.title_container{
+    margin-top: 10vw;
+    padding: 10px 0 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text{
+    margin-top:15vh;
 }
