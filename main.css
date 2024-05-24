@@ -47,3 +47,9 @@ h1{
 .text{
     margin-top:15vh;
 }
+
+.photo_cred{
+   color: white;
+   text-align: center;
+   margin-top:auto; 
+}
