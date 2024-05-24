@@ -2,10 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: dotted black 2px;
 }
 
-div, p{
-    border: dotted black 2px;
+div, p, form{
+    border: solid black 2px;
 }
 
 body{
@@ -53,3 +54,8 @@ h1{
    text-align: center;
    margin-top:auto; 
 }
+
+button{
+    margin: 10px auto 15px 15px;
+}
+
