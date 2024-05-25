@@ -59,6 +59,16 @@ h1{
 
 button{
     margin: 10px auto 15px 50px;
+    color: white;
+    background-color: rgb(52, 117, 190);
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 240px;
+    height: 60px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .login{
