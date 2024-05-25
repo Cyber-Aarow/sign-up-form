@@ -122,8 +122,13 @@ label{
 }
 
 input{
-    width: 200px;
+    width: 222px;
     padding: 5px;
     margin: 0;
     font-size: large;
+}
+
+.img_link{
+    color: white;
+    text-decoration: underline;
 }
