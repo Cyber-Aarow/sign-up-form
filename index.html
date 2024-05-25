@@ -23,23 +23,28 @@
         <p>You <em>know</em> you want to.</p>
         <form>
             <p class="form_title">Let's do this!</p>
-            <label for="firstName">FIRST NAME</label>
-            <input type="text" id="firstName">
-
-            <label for="lastName">LAST NAME</label>
-            <input type="text" id="lastName">
-
-            <label for="email">EMAIL</label>
-            <input type="email" id="email">
-
-            <label for="tel">PHONE NUMBER</label>
-            <input type="tel" id="tel">
-
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password">
-
-            <label for="confirm">CONFIRM PASSWORD</label>
-            <input type="password" name="" id="confirm">
+            <div class="form_column_container">
+                <div class="form_left">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName">
+    
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email">
+    
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="form_right">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName">
+    
+                    <label for="tel">PHONE NUMBER</label>
+                    <input type="tel" id="tel">
+    
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="" id="confirm">
+                </div>
+            </div>
         </form>
         <button type="submit">Submit</button>
         <div class="login_option">Already have an account? <strong><a href="google.com" class="login">Log in</a></strong></div>

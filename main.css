@@ -93,3 +93,11 @@ form{
 .form_title{
     margin-left: 0;
 }
+
+.form_column_container{
+    display: flex;
+}
+
+.form_left{
+    margin-right: 8%;
+}
