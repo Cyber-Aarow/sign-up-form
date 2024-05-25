@@ -51,10 +51,11 @@ h1{
     margin-top:15vh;
 }
 
-.photo_cred{
+.img_cred{
    color: white;
    text-align: center;
-   margin-top:auto; 
+   margin-top:auto;
+   margin-bottom: 10px
 }
 
 button{
