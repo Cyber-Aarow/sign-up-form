@@ -112,3 +112,18 @@ form{
 .form_left{
     margin-right: 8%;
 }
+
+label{
+    display: inline;
+}
+
+.required{
+    color: rgb(168, 6, 6);
+}
+
+input{
+    width: 200px;
+    padding: 5px;
+    margin: 0;
+    font-size: large;
+}
