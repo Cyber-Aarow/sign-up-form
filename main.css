@@ -125,7 +125,7 @@ label{
 input{
     width: 222px;
     padding: 5px;
-    margin: 0;
+    margin-bottom: 10px;
     font-size: large;
     border-radius: 8px;
 }
@@ -146,6 +146,7 @@ input:invalid{
 }
 
 input:focus{
-    border-color:blue;
-    box-shadow: rgba(0, 0, 0, 0.45) 3.95px 3.95px 3.6px;
+    outline: none;
+    border: solid rgb(11, 59, 216);
+    box-shadow: rgba(0, 0, 0, 0.45) 3.5px 3.5px 3.6px;
 }
