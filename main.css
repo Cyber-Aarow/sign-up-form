@@ -59,13 +59,13 @@ h1{
 }
 
 button{
-    margin: 10px auto 15px 50px;
+    margin: 40px auto 40px 50px;
     color: white;
     background-color: rgb(52, 117, 190);
     padding: 10px;
     border-radius: 8px;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.08) 5px 5px 2.6px;
     width: 240px;
     height: 60px;
     font-size: x-large;
@@ -143,4 +143,9 @@ input{
 input:invalid{
     border-color: red;
     background-color: rgb(255, 230, 230);
+}
+
+input:focus{
+    border-color:blue;
+    box-shadow: rgba(0, 0, 0, 0.45) 3.95px 3.95px 3.6px;
 }
