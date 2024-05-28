@@ -127,9 +127,20 @@ input{
     padding: 5px;
     margin: 0;
     font-size: large;
+    border-radius: 8px;
 }
 
 .img_link{
     color: white;
     text-decoration: underline;
+}
+
+/*input:valid{
+    border-color: green;
+    background-color: rgb(235, 255, 235);
+}*/
+
+input:invalid{
+    border-color: red;
+    background-color: rgb(255, 230, 230);
 }
