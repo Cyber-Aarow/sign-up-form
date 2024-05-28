@@ -21,12 +21,12 @@
             deepest dreams. <br>Sign up <em>now</em> to get started.
         </p>
         <p>You <em>know</em> you want to.</p>
-        <form>
+        <form id="make_account">
             <p class="form_title">Let's do this!</p>
             <div class="form_column_container">
                 <div class="form_left">
-                    <label for="firstName">FIRST NAME <span class="required name">*</span></label>
-                    <input type="text" name="first_name" id="firstName">
+                    <label for="first_name">FIRST NAME <span class="required name">*</span></label>
+                    <input type="text" name="first_name" id="first_name" class="name">
     
                     <label for="email">EMAIL <span class="required">*</span></label>
                     <input type="email" name="email" id="email">
@@ -35,8 +35,8 @@
                     <input type="password" name="password" id="password" class="password">
                 </div>
                 <div class="form_right">
-                    <label for="lastName">LAST NAME</label>
-                    <input type="text" name="last_name" id="lastName" class="name">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last_name" class="name">
     
                     <label for="tel">PHONE NUMBER</label>
                     <input type="tel" name="tel_number" id="tel" minlength="10" maxlength="11">
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </form>
-        <button type="submit">Create Account</button>
+        <button type="submit" form="make_account">Create Account</button>
         <div class="login_option">Already have an account? <strong><a href="google.com" class="login">Log in</a></strong></div>
     </div>
 </body>
