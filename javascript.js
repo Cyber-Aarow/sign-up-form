@@ -28,3 +28,19 @@ window.onload = function() {
       }
     })
   }
+
+function validatePassword(){
+    let initialPass = document.querySelector("#password").value;
+    let confirmPass = document.querySelector("#confirm").value;
+
+    if(initialPass != confirmPass){
+        confirmPass.setCustomValidity("Passwords don't match.");
+        confirmPass.reportValidity();
+    }
+    else{
+        confirmPass.setCustomValidity("");
+    }
+}
+
+let confirmPass = document.querySelector("#confirm");
+confirmPass.addEventListener("keypress", validatePassword);
