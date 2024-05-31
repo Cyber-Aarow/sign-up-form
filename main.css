@@ -179,3 +179,11 @@ input:focus{
     border-width: 2px;
     box-shadow: rgba(0, 0, 0, 0.45) 3.5px 3.5px 3.6px;
 }
+
+#password{
+    margin-bottom: 0;
+}
+
+#password_message{
+    margin-left: 5px;
+}
