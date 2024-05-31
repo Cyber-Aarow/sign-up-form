@@ -30,17 +30,29 @@ window.onload = function() {
   }
 
 function validatePassword(){
-    let initialPass = document.querySelector("#password").value;
-    let confirmPass = document.querySelector("#confirm").value;
+    let initialPass = document.querySelector("#password");
+    let confirmPass = document.querySelector("#confirm");
+    let msgPass = document.querySelector("#password_message");
+    let submitButton = document.querySelector("#submit");
 
-    if(initialPass != confirmPass){
-        confirmPass.setCustomValidity("Passwords don't match.");
-        confirmPass.reportValidity();
+    if(initialPass.value != confirmPass.value){        
+        msgPass.style.color = "red";
+        msgPass.textContent = "*Passwords do not match.";
+        msgPass.style.fontSize = "small";
+        initialPass.setCustomValidity("Invalid");
+        confirmPass.setCustomValidity("Invalid");
+
+        submitButton.disabled = true;
+        submitButton.style.opacity = 0.4;
     }
     else{
+        msgPass.style.color = "green";
+        msgPass.textContent = "*Passwords match.";
+        msgPass.style.fontSize = "small";
+        initialPass.setCustomValidity("");
         confirmPass.setCustomValidity("");
+
+        submitButton.disabled = false;
+        submitButton.style.opacity = 1;
     }
 }
-
-let confirmPass = document.querySelector("#confirm");
-confirmPass.addEventListener("keypress", validatePassword);
